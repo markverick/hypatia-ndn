@@ -6,3 +6,4 @@ cmake-build-debug
 copy_simulator*
 coverage_report/
 test_results/
+ns-3/
