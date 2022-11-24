@@ -9,7 +9,7 @@ import os
 
 def options(opt):
     opt.load(['compiler_c', 'compiler_cxx'])
-    opt.load(['default-compiler-flags',
+    opt.load(['--compiler-flags',
               'boost', 'ns3'],
              tooldir=['waf-tools'])
 
